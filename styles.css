@@ -1,0 +1,74 @@
+/* Estilização global */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+main {
+    padding: 2rem;
+}
+
+/* Estilização das seções */
+section {
+    margin-bottom: 2rem;
+}
+
+section div {
+    text-align: center; /* Centraliza o texto dentro do div */
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Estilização das listas */
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    flex-wrap: wrap; /* Permite quebra de linha */
+}
+
+ul li {
+    margin: 0.5rem;
+}
+
+ul li img {
+    width: 188px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilização das redes sociais */
+.List-social {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    gap: 1rem; /* Espaçamento entre ícones */
+}
+
+.List-social li {
+    display: inline;
+}
